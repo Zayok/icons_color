@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;}/*выбираем способ расчета с учетом рамки*/
+    a, button,li,svg{
+transition: all .3s ease-in-out;
+   }
+    ul{
+        margin: 150px;
+        padding: 0;
+     text-align: center;
+     }
+    ul li{
+        margin: 0 40px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border:3px solid #2a69a6;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+           } 
+           ul li svg{
+               width: 60%;          
+           }
+           ul li:hover{
+               background-color: #2a69a6;
+           }
+           ul li:hover svg{
+               fill: white;
+           }
+           .text ul{
+            margin: 150px;
+            padding: 0;
+            text-align: center;
+           }
+           .text ul li{
+            margin: 0 40px;
+            width: 250px;
+            height: 250px;                   
+            } 
+             
+            .col{
+               
+               
+                width: 25%;
+                width: calc(33.3% - 2 * 20px);/*растягиваем по всей длине строки*/
+                padding: 15px;
+                margin: 20px; /*используем для растягивания*/
+                transition: all .25s ease-in;
+                text-align: center;
+                
+            }
+
+           .row--inline{
+                font-size: 0%;
+            }
+                   
+            .col--inline{
+                display: inline-block;
+                font-size: 18px;               
+                box-sizing: border-box;              
+            }
+
+           h2{
+               font-size: 30px;
+           }
+           
+
+
+
+
+
+
+
